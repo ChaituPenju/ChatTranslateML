@@ -16,7 +16,16 @@
             <EditText
                 android:id="@+id/et_name"
                 android:layout_width="220dp"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter name"/>
+
+            <EditText
+                android:id="@+id/et_room"
+                android:inputType="text"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter room" />
 
             <Button
                 android:id="@+id/btn_enter_chat"
